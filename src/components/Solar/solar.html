@@ -1,0 +1,12 @@
+<grid :grid="grid" :position="position">
+  <section class="solar">
+    <div class="solar__content">
+      <span>{{ currentSolarProduction.value }}</span>
+    </div>
+    <IEcharts :option="chartOptions"></IEcharts>
+    <div class="grid_footer">
+      <span>Dernière mise à jour : {{ currentSolarProduction.time }}</span>
+  </div>
+    <span class="background-fa-icon solar__icon"></span>
+  </section>
+</grid>

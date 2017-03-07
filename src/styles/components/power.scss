@@ -1,0 +1,17 @@
+.power {
+    background-color: #fbac13;
+}
+
+.power__icon:after {
+    @include fa_icon('\f0e7');
+}
+
+.power__content {
+  @include position-center;
+
+  text-align: center;
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: .05em;
+  line-height: 1;
+}

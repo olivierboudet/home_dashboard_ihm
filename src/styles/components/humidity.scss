@@ -1,0 +1,24 @@
+
+
+.humidity {
+    background-color: color($blue, 'light', 0.7);
+}
+
+.humidity__icon:after {
+    @include fa_icon('\f043');
+}
+
+.humidity__content {
+  @include position-center;
+
+  text-align: center;
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: .05em;
+  line-height: 1;
+}
+
+.humidity__label {
+  text-align: center;
+  font-size: 1em;
+}

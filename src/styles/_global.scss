@@ -1,0 +1,51 @@
+::selection {
+  background: $brand-primary;
+  color: #fff;
+  text-shadow: 0px 0px 0px;
+}
+
+::-moz-selection {
+  background: $brand-primary;
+  color: #fff;
+  text-shadow: 0px 0px 0px;
+}
+
+::-webkit-selection {
+  background: $brand-primary;
+  color: #fff;
+  text-shadow: 0px 0px 0px;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  font-family: 'Roboto';
+  color: white;
+  height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 0.75rem;
+  }
+}
+
+#app {
+    height: 100%;
+}
+
+.content {
+  position:relative;
+  margin-left: 20px;
+  height: 100%;
+}
+
+#sidebar {
+  width: 20px;
+  position: fixed;
+}

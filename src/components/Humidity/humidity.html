@@ -1,0 +1,14 @@
+<grid :grid="grid" :position="position">
+  <section class="humidity">
+    <div class="humidity__label">
+      <span>{{ room }}</span>
+    </div>
+    <div class="humidity__content">
+      <span>{{ currentHumidity.value }}</span>
+    </div>
+    <div class="grid_footer">
+      <span>Dernière mise à jour : {{ currentHumidity.time }}</span>
+  </div>
+    <span class="background-fa-icon humidity__icon"></span>
+  </section>
+</grid>

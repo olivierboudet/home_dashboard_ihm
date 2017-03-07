@@ -1,0 +1,15 @@
+<grid :grid="grid" :position="position">
+  <section :class="currentTemperature.value > threshold  ? 'hot': 'cold' | modify-class('temperature')">
+    <div class="temperature__label">
+      <span>{{ room }}</span>
+    </div>
+    <div class="temperature__content">
+      <span>{{ currentTemperature.value }}</span>
+    </div>
+    <IEcharts :option="chartOptions"></IEcharts>
+    <div class="grid_footer">
+      <span>Dernière mise à jour : {{ currentTemperature.time }}</span>
+  </div>
+    <span class="background-fa-icon temperature__icon"></span>
+  </section>
+</grid>

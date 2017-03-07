@@ -1,0 +1,9 @@
+<grid :grid="grid" :position="position">
+  <section class="time">
+    <time class="time__content">
+      <span class="time__date">{{ now | moment('DD/MM/YYYY') }}</span>
+      <span class="time__time">{{ now | moment('HH:mm') }}</span>
+    </time>
+    <span class="background-fa-icon time__icon"></span>
+  </section>
+</grid>

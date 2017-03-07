@@ -1,0 +1,20 @@
+@import "styles/variables";
+
+// npm depencies
+@import "~bootstrap/scss/bootstrap";
+@import "~font-awesome/scss/font-awesome";
+
+// Project specific
+
+@import "styles/global";
+@import "styles/functions";
+@import "styles/mixins";
+@import "styles/colors";
+@import "styles/grid";
+@import "styles/components/temperature.scss";
+@import "styles/components/humidity.scss";
+@import "styles/components/currentTime.scss";
+@import "styles/components/solar.scss";
+@import "styles/components/solarHistory.scss";
+@import "styles/components/power.scss";
+@import "styles/animate";

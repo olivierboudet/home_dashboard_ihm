@@ -1,0 +1,12 @@
+<grid :grid="grid" :position="position">
+  <section class="power">
+    <div class="power__content">
+      <span>{{ currentPower.value }}</span>
+    </div>
+    <IEcharts :option="chartOptions"></IEcharts>
+    <div class="grid_footer">
+      <span>Dernière mise à jour : {{ currentPower.time }}</span>
+  </div>
+    <span class="background-fa-icon power__icon"></span>
+  </section>
+</grid>
